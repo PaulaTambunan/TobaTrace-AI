@@ -1,0 +1,28 @@
+[project]
+name = "tobatrace-ai"
+version = "0.1.0"
+description = "TobaTrace - Sistem Copilot Cerdas Kepatuhan Ekspor & Ketertelusuran Kopi Sumatera (EUDR Compliance Copilot). Tugas 10S3001 Kecerdasan Buatan - PjBL Milestone 1."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+    { name = "Joice", email = "joice@example.itdel.ac.id" },
+    { name = "Paula Tambunan", email = "paula@example.itdel.ac.id" },
+    { name = "Ester", email = "ester@example.itdel.ac.id" },
+]
+dependencies = []
+
+[tool.uv]
+package = false
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+    "ruff>=0.6.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
