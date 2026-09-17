@@ -11,7 +11,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
-from search_baseline import (  # noqa: E402
+from search_baseline import (
     GOAL_NODE,
     GRAPH,
     START_NODE,
@@ -59,13 +59,14 @@ def test_astar_explores_no_more_nodes_than_ucs():
     assert astar.nodes_expanded <= ucs.nodes_expanded
 
 
-def test_heuristic_is_admissible_for_direct_neighbors():
+def test_heuristic_is_admissible_for_every_reachable_node():
     """
-    Uji admissibility praktis: untuk setiap edge (a,b,cost) yang terhubung
-    LANGSUNG ke goal, h(a) tidak boleh melebihi cost sebenarnya menuju goal.
+    Untuk setiap node, h(n) tidak boleh melebihi biaya optimal sebenarnya
+    menuju goal yang dihitung oleh UCS.
     """
-    for neighbor, cost in GRAPH[GOAL_NODE]:
-        assert heuristic(neighbor, GOAL_NODE) <= cost + 1e-6
+    for node in GRAPH:
+        optimal_cost = uniform_cost_search(GRAPH, node, GOAL_NODE).total_cost
+        assert heuristic(node, GOAL_NODE) <= optimal_cost + 1e-6
 
 
 def test_heuristic_goal_is_zero():

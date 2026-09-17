@@ -39,16 +39,14 @@ from __future__ import annotations
 
 import heapq
 import math
-from dataclasses import dataclass, field
-from typing import Dict, List, Optional, Tuple
-
+from dataclasses import dataclass
 
 # ---------------------------------------------------------------------------
 # 1. Representasi Graf Masalah Bisnis
 # ---------------------------------------------------------------------------
 # Koordinat (lat, lon) — dipakai HANYA untuk menghitung heuristik A*.
 # Nilai bersifat perkiraan (approximate), cukup untuk keperluan baseline akademik.
-COORDINATES: Dict[str, Tuple[float, float]] = {
+COORDINATES: dict[str, tuple[float, float]] = {
     "Kebun_Sitorang":      (2.410, 99.100),   # Klaster kebun kopi petani, Sitorang
     "Balige":              (2.3333, 99.0667), # Kota kecamatan / titik pengumpulan utama
     "Porsea":              (2.3833, 99.1333), # Titik pengumpul alternatif
@@ -63,7 +61,7 @@ COORDINATES: Dict[str, Tuple[float, float]] = {
 
 # Graf tidak berarah: node -> [(tetangga, biaya_km), ...]
 # Biaya = estimasi jarak tempuh darat (km), proxy biaya logistik (Rp/kg setara jarak).
-RAW_EDGES: List[Tuple[str, str, float]] = [
+RAW_EDGES: list[tuple[str, str, float]] = [
     ("Kebun_Sitorang", "Balige", 6),
     ("Kebun_Sitorang", "Porsea", 10),
     ("Balige", "Porsea", 17),
@@ -79,8 +77,8 @@ RAW_EDGES: List[Tuple[str, str, float]] = [
 
 
 def build_graph(
-    edges: List[Tuple[str, str, float]], nodes: Optional[List[str]] = None
-) -> Dict[str, List[Tuple[str, float]]]:
+    edges: list[tuple[str, str, float]], nodes: list[str] | None = None
+) -> dict[str, list[tuple[str, float]]]:
     """
     Bangun adjacency list dari daftar edge tidak berarah.
     `nodes` opsional: jika tidak diisi, node diinferensi otomatis dari `edges`
@@ -89,7 +87,7 @@ def build_graph(
     """
     if nodes is None:
         nodes = sorted({n for a, b, _ in edges for n in (a, b)})
-    graph: Dict[str, List[Tuple[str, float]]] = {node: [] for node in nodes}
+    graph: dict[str, list[tuple[str, float]]] = {node: [] for node in nodes}
     for a, b, cost in edges:
         graph[a].append((b, cost))
         graph[b].append((a, cost))
@@ -107,7 +105,7 @@ GOAL_NODE = "Pelabuhan_Belawan"
 # ---------------------------------------------------------------------------
 @dataclass
 class SearchResult:
-    path: List[str]
+    path: list[str]
     total_cost: float
     nodes_expanded: int
     algorithm: str
@@ -121,7 +119,7 @@ class SearchResult:
         )
 
 
-def _reconstruct_path(came_from: Dict[str, Optional[str]], goal: str) -> List[str]:
+def _reconstruct_path(came_from: dict[str, str | None], goal: str) -> list[str]:
     path = [goal]
     while came_from[path[-1]] is not None:
         path.append(came_from[path[-1]])
@@ -133,14 +131,14 @@ def _reconstruct_path(came_from: Dict[str, Optional[str]], goal: str) -> List[st
 # 3. Uniform Cost Search (UCS) - uninformed, menggunakan heapq (Priority Queue)
 # ---------------------------------------------------------------------------
 def uniform_cost_search(
-    graph: Dict[str, List[Tuple[str, float]]], start: str, goal: str
+    graph: dict[str, list[tuple[str, float]]], start: str, goal: str
 ) -> SearchResult:
-    frontier: List[Tuple[float, int, str]] = []
+    frontier: list[tuple[float, int, str]] = []
     counter = 0  # tie-breaker agar heapq stabil saat cost sama
     heapq.heappush(frontier, (0.0, counter, start))
 
-    came_from: Dict[str, Optional[str]] = {start: None}
-    cost_so_far: Dict[str, float] = {start: 0.0}
+    came_from: dict[str, str | None] = {start: None}
+    cost_so_far: dict[str, float] = {start: 0.0}
     expanded = 0
 
     while frontier:
@@ -169,7 +167,7 @@ def uniform_cost_search(
 # ---------------------------------------------------------------------------
 # 4. Heuristik A* - Jarak Garis Lurus (Haversine), bersifat admissible
 # ---------------------------------------------------------------------------
-def haversine_km(coord_a: Tuple[float, float], coord_b: Tuple[float, float]) -> float:
+def haversine_km(coord_a: tuple[float, float], coord_b: tuple[float, float]) -> float:
     """Hitung jarak garis lurus antar dua koordinat (lat, lon) dalam km."""
     lat1, lon1 = map(math.radians, coord_a)
     lat2, lon2 = map(math.radians, coord_b)
@@ -194,14 +192,14 @@ def heuristic(node: str, goal: str = GOAL_NODE) -> float:
 # 5. A* Search - informed, f(n) = g(n) + h(n)
 # ---------------------------------------------------------------------------
 def a_star_search(
-    graph: Dict[str, List[Tuple[str, float]]], start: str, goal: str
+    graph: dict[str, list[tuple[str, float]]], start: str, goal: str
 ) -> SearchResult:
-    frontier: List[Tuple[float, int, str]] = []
+    frontier: list[tuple[float, int, str]] = []
     counter = 0
     heapq.heappush(frontier, (heuristic(start, goal), counter, start))
 
-    came_from: Dict[str, Optional[str]] = {start: None}
-    g_score: Dict[str, float] = {start: 0.0}
+    came_from: dict[str, str | None] = {start: None}
+    g_score: dict[str, float] = {start: 0.0}
     expanded = 0
 
     while frontier:

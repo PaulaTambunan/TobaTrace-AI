@@ -35,15 +35,66 @@ tobatrace-ai/
 ├── README.md
 ├── pyproject.toml          # dependensi & konfigurasi environment (Astral uv)
 ├── .gitignore
-├── docs/
-│   └── Laporan_Tugas1_Milestone1.pdf   # laporan problem framing & PEAS
 ├── src/
 │   └── search_baseline.py  # modul UCS & A* Search (Milestone 1)
 └── tests/
     └── test_search_baseline.py         # pytest unit test
 ```
 
-## 4. Cara Menjalankan (Astral `uv`)
+PDF laporan dikumpulkan melalui ECourse sesuai format penamaan tugas. PDF tidak
+menjadi dependensi runtime dan tidak wajib disimpan di repository.
+
+## 4. Arsitektur Baseline
+
+```mermaid
+flowchart LR
+    A[Data graf rantai pasok] --> B[build_graph]
+    C[Koordinat lokasi] --> D[Heuristik Haversine]
+    B --> E[UCS / A* Search]
+    D --> E
+    E --> F[Rute optimal dan total biaya]
+    G[pytest] --> E
+```
+
+## 5. Problem Framing dan PEAS
+
+### Problem framing
+
+Koperasi dan eksportir kopi arabika Sumatera membutuhkan rute logistik yang
+efisien dari titik pengumpulan menuju Pelabuhan Belawan. Perencanaan manual
+dapat menghasilkan biaya transportasi lebih tinggi, waktu tempuh lebih lama,
+dan keputusan yang sulit diaudit. TobaTrace menggunakan pencarian graf sebagai
+baseline yang transparan sebelum fitur dokumen EUDR, kendala inspeksi, dan
+pelacakan real-time ditambahkan pada milestone berikutnya.
+
+### Spesifikasi PEAS
+
+| Elemen | Spesifikasi terukur |
+|---|---|
+| **Performance measure** | Meminimalkan total biaya/jarak rute, menghasilkan rute valid dari kebun ke pelabuhan, mempertahankan biaya A* sama dengan UCS, serta mencatat jumlah simpul yang diekspansi. |
+| **Environment** | Simpul kebun, pengumpul, pengolahan, gudang, hub logistik, dan Pelabuhan Belawan; edge berisi estimasi jarak darat. Baseline bersifat **fully observable, known, deterministic, static, discrete, sequential, single-agent**. Operasi nyata dapat menjadi dinamis, stochastic, partially observable, dan multi-agent. |
+| **Actuators** | Menghasilkan rekomendasi urutan lokasi/rute, memilih edge berikutnya, mengembalikan total biaya, dan memberikan peringatan jika rute tidak ditemukan. |
+| **Sensors** | Data adjacency graph, koordinat latitude/longitude, estimasi biaya atau jarak edge, titik awal, dan titik tujuan. Pada milestone lanjutan dapat ditambah status kendaraan, dokumen DDS, cuaca, dan slot inspeksi. |
+
+### Formulasi ruang keadaan
+
+- **X**: seluruh simpul lokasi pada graf rantai pasok.
+- **A**: perpindahan dari satu simpul ke simpul tetangganya.
+- **T(s, a)**: transisi deterministik ke simpul tujuan edge.
+- **G**: keadaan tercapai ketika simpul sama dengan `Pelabuhan_Belawan`.
+- **C(s, a, s')**: estimasi jarak tempuh edge dalam kilometer sebagai proxy biaya logistik.
+
+## 6. Bukti Kolaborasi GitHub
+
+Tabel berikut mencantumkan satu commit yang mewakili kontribusi setiap anggota. Riwayat lengkap commit dapat dilihat pada halaman Commits repository.
+
+| Anggota | Kontribusi | Tautan commit |
+|---|---|---|
+| Joice | Arsitektur AI dan model | [d3cf816](https://github.com/PaulaTambunan/TobaTrace-AI/commit/d3cf816) |
+| Paula Tambunan | Data, knowledge, QA, dan evaluasi | [94b2708](https://github.com/PaulaTambunan/TobaTrace-AI/commit/94b2708) |
+| Ester | Integrasi dan interface | [a3265f5](https://github.com/PaulaTambunan/TobaTrace-AI/commit/a3265f5) |
+
+## 7. Cara Menjalankan (Astral `uv`)
 
 Proyek ini memakai [Astral `uv`](https://docs.astral.sh/uv/) sebagai package manager
 Python modern untuk memastikan environment tim konsisten.
@@ -75,7 +126,7 @@ python src/search_baseline.py
 pytest -v
 ```
 
-## 5. Anggota Tim & Peran
+## 8. Anggota Tim & Peran
 
 | Nama | NIM | Peran |
 |---|---|---|
@@ -83,6 +134,6 @@ pytest -v
 | Paula Tambunan | 12S24025 | Data & Knowledge Engineer **+** QA, Evaluation & Ethics Lead |
 | Ester | 12S24050 | Integration & Interface Engineer |
 
-## 6. Lisensi
+## 9. Lisensi
 
 Proyek ini dibuat untuk keperluan akademik (tugas kuliah) — MIT License (lihat `LICENSE`).
