@@ -1,0 +1,36 @@
+{
+ "integrity_problems": 0,
+ "lots": 300,
+ "documents": 2903,
+ "load_ms": 32.6,
+ "total_validate_ms": 143.8,
+ "per_lot_ms_p50": 0.44,
+ "per_lot_ms_p95": 0.98,
+ "per_lot_ms_max": 2.07,
+ "accuracy": 1.0,
+ "confusion": {
+  "INCOMPLETE->INCOMPLETE": 15,
+  "INCONSISTENT->INCONSISTENT": 31,
+  "INVALID_DOCUMENT->INVALID_DOCUMENT": 31,
+  "VALID->VALID": 223
+ },
+ "by_defect": {
+  "country_mismatch": "3/3",
+  "cutoff_violation": "5/5",
+  "date_order": "5/5",
+  "expired_legality": "8/8",
+  "low_quality": "5/5",
+  "mass_balance": "5/5",
+  "missing_doc": "15/15",
+  "non_negligible_no_mitigation": "5/5",
+  "none": "163/163",
+  "operator_mismatch": "5/5",
+  "quantity_mismatch": "8/8",
+  "unsigned_dds": "8/8",
+  "valid_boundary": "10/10",
+  "valid_non_negligible_with_mitigation": "20/20",
+  "valid_resubmitted": "30/30",
+  "wrong_hs_code": "5/5"
+ },
+ "mismatches": []
+}
