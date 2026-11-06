@@ -9,7 +9,10 @@ authors = [
     { name = "Paula Tambunan", email = "paula@example.itdel.ac.id" },
     { name = "Ester", email = "ester@example.itdel.ac.id" },
 ]
-dependencies = []
+dependencies = [
+    "chromadb>=0.5",
+    "sentence-transformers>=3.0",
+]
 
 [tool.uv]
 package = false
