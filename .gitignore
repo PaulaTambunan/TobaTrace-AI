@@ -37,3 +37,6 @@ Thumbs.db
 # IDE settings
 .idea/
 .vscode/
+
+# M3 vector index
+data/chroma_db/
