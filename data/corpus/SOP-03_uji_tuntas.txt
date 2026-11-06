@@ -1,0 +1,13 @@
+SOP-03 Pengumpulan Data Uji Tuntas (Due Diligence)
+
+Sebelum lot diekspor, tim kepatuhan mengumpulkan data uji tuntas: identitas petani, bukti kepemilikan atau penguasaan lahan, dan data geolokasi kebun. Data ini disusun menjadi pernyataan uji tuntas yang dikirim melalui sistem informasi resmi. Tim memverifikasi kelengkapan data sebelum pernyataan dikirim dan menyimpan salinannya minimal lima tahun.
+
+Tujuan dan ruang lingkup. SOP ini mengatur proses uji tuntas untuk setiap lot sebelum diekspor ke pasar Uni Eropa. Proses ini memastikan bahwa lot berasal dari kebun yang tidak mengalami deforestasi setelah batas waktu EUDR, dan bahwa seluruh informasi yang dilaporkan dapat dipertanggungjawabkan.
+
+Pengumpulan data. Tim kepatuhan mengumpulkan empat kelompok data untuk setiap lot. Pertama, identitas petani dan nomor anggota koperasi. Kedua, bukti penguasaan lahan seperti sertifikat, surat keterangan kepala desa, atau perjanjian garap. Ketiga, data geolokasi kebun berupa titik atau poligon. Keempat, riwayat penerimaan dan kode lot yang menghubungkan kebun dengan karung yang akan diekspor.
+
+Verifikasi. Setiap kelompok data diperiksa oleh petugas kedua yang tidak terlibat dalam pengumpulan. Pemeriksaan mencakup kelengkapan dokumen, kesesuaian nama dan nomor identitas, serta apakah koordinat berada di dalam wilayah administratif desa asal petani. Data yang tidak lolos verifikasi dikembalikan untuk dilengkapi dan tidak boleh diteruskan.
+
+Penyusunan pernyataan. Data yang telah diverifikasi disusun menjadi pernyataan uji tuntas dengan format yang ditetapkan sistem informasi resmi. Pernyataan ditandatangani oleh koordinator kepatuhan dan diberi nomor referensi. Pernyataan harus dikirim sebelum dokumen ekspor diterbitkan.
+
+Penyimpanan. Salinan pernyataan, bukti pendukung, dan catatan verifikasi disimpan selama minimal lima tahun sesuai SOP dan kebijakan retensi dokumen. Penyimpanan dilakukan secara digital dengan cadangan rutin.

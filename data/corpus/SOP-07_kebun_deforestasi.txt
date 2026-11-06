@@ -1,0 +1,15 @@
+SOP-07 Penanganan Kebun yang Terindikasi Deforestasi
+
+Jika hasil pemeriksaan citra satelit menunjukkan kebun berada di area yang mengalami deforestasi setelah batas waktu yang ditentukan, kebun tersebut dinyatakan tidak memenuhi syarat. Lot dari kebun itu dipisahkan dan tidak boleh dicampur dengan lot lain. Koordinator kepatuhan menyusun laporan dan menghubungi petani untuk klarifikasi sebelum keputusan final.
+
+Tujuan dan ruang lingkup. SOP ini mengatur tindakan yang diambil ketika data pemantauan menunjukkan bahwa sebuah kebun pemasok berada di area yang mengalami deforestasi atau degradasi hutan setelah batas waktu EUDR. Tujuannya adalah mencegah lot dari kebun tersebut masuk rantai ekspor sambil memberi kesempatan kepada petani untuk memberikan klarifikasi.
+
+Sumber indikasi. Indikasi dapat berasal dari pemeriksaan citra satelit berkala, laporan petugas lapangan, atau pengaduan pihak ketiga. Setiap indikasi dicatat dengan tanggal, sumber, dan koordinat kebun yang terkait.
+
+Penahanan lot. Begitu indikasi tercatat, seluruh lot yang memiliki kode dari kebun tersebut langsung ditahan di gudang dan diberi status karantina. Lot yang sudah dikirim ke ekspedisi dihentikan pemuatannya bila masih memungkinkan. Lot karantina dipisahkan secara fisik dan tidak boleh dicampur dengan lot lain.
+
+Klarifikasi. Koordinator kepatuhan menghubungi petani dalam waktu tiga hari kerja untuk meminta penjelasan dan dokumen pendukung, misalnya riwayat penggarapan lahan dan surat keterangan dari kepala desa. Kunjungan lapangan dilakukan bila klarifikasi tertulis belum cukup meyakinkan.
+
+Keputusan. Berdasarkan hasil klarifikasi dan verifikasi lapangan, koordinator kepatuhan menyusun laporan keputusan. Kebun dinyatakan memenuhi syarat, memenuhi syarat dengan pengawasan, atau tidak memenuhi syarat. Lot dari kebun yang tidak memenuhi syarat dialihkan ke pasar domestik atau dimusnahkan sesuai ketentuan internal, dan tidak boleh diekspor ke Uni Eropa.
+
+Pemulihan. Petani yang kebunnya dinyatakan tidak memenuhi syarat dapat mengikuti program pendampingan sebelum mengajukan kembali verifikasi. Seluruh tindakan dicatat dalam berkas kebun untuk keperluan audit.

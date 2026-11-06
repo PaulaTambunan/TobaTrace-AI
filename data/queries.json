@@ -1,0 +1,13 @@
+[
+  {"type": "sinonim", "query": "bagaimana membuktikan kopi tidak berasal dari lahan hutan baru", "expected_source": "SOP-07_kebun_deforestasi.txt"},
+  {"type": "sinonim", "query": "cara melacak asal kebun dari karung kopi", "expected_source": "SOP-02_ketertelusuran_lot.txt"},
+  {"type": "sinonim", "query": "prosedur menjemur biji kopi sebelum disimpan di gudang", "expected_source": "SOP-04_pengeringan_gudang.txt"},
+  {"type": "sinonim", "query": "data apa saja yang dikumpulkan untuk pernyataan bebas deforestasi", "expected_source": "SOP-03_uji_tuntas.txt"},
+  {"type": "sinonim", "query": "pencatatan berat biji saat petani menyerahkan hasil panen", "expected_source": "SOP-01_penerimaan_biji.txt"},
+  {"type": "ambigu", "query": "dokumen ekspor", "expected_source": "SOP-06_dokumen_ekspor.txt"},
+  {"type": "ambigu", "query": "aturan penyimpanan", "expected_source": "SOP-04_pengeringan_gudang.txt"},
+  {"type": "out_of_domain", "query": "resep rendang padang yang autentik", "expected_source": ""},
+  {"type": "out_of_domain", "query": "cara memperbaiki jaringan wifi di rumah", "expected_source": ""},
+  {"type": "out_of_domain", "query": "harga saham bank BCA hari ini", "expected_source": ""},
+  {"type": "out_of_domain", "query": "kunci gitar untuk lagu pop dasar", "expected_source": ""}
+]

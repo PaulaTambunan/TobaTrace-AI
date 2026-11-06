@@ -1,0 +1,15 @@
+Kebijakan Retensi Dokumen
+
+Seluruh dokumen kepatuhan, termasuk data geolokasi, pernyataan uji tuntas, dan dokumen ekspor, disimpan selama minimal lima tahun sejak tanggal ekspor. Dokumen disimpan dalam bentuk digital dengan cadangan rutin dan hanya dapat diubah oleh pengguna yang berwenang. Setiap perubahan dokumen dicatat dalam riwayat versi.
+
+Ruang lingkup. Kebijakan ini berlaku untuk seluruh dokumen yang dihasilkan atau diterima oleh koperasi dalam rangka penjualan dan ekspor kopi, termasuk berkas penerimaan, catatan lot, data geolokasi, pernyataan uji tuntas, dokumen ekspor, catatan audit, dan berkas keluhan.
+
+Jangka waktu. Dokumen kepatuhan dan dokumen ekspor disimpan minimal lima tahun sejak tanggal ekspor atau sejak tanggal dokumen diterbitkan, mana yang lebih lama. Catatan audit disimpan minimal tiga tahun setelah audit ditutup. Berkas keluhan disimpan minimal tiga tahun setelah kasus dinyatakan selesai.
+
+Format penyimpanan. Dokumen disimpan dalam format digital yang dapat dibaca dalam jangka panjang, yaitu PDF untuk dokumen final dan format asli untuk data tabular atau citra. Pemindaian dokumen kertas dilakukan dalam resolusi minimal 300 dpi dan diberi nama sesuai nomor referensi.
+
+Keamanan dan cadangan. Berkas disimpan di server koperasi dengan cadangan harian ke media terpisah dan satu salinan mingguan di luar lokasi kantor. Akses diberikan berdasarkan peran, dan setiap akses ke data geolokasi petani dicatat.
+
+Pemusnahan. Dokumen yang telah melewati masa retensi dapat dimusnahkan setelah mendapat persetujuan tertulis dari pimpinan koperasi. Pemusnahan dicatat dalam daftar pemusnahan yang menyebutkan jenis dokumen, rentang tanggal, dan tanggal pelaksanaan.
+
+Perubahan dokumen. Setiap dokumen yang diubah setelah final harus disimpan sebagai versi baru dengan tanggal dan nama pengubah. Versi lama tidak boleh dihapus selama masa retensi berjalan.

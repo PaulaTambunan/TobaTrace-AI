@@ -1,0 +1,13 @@
+SOP-05 Pengemasan dan Pelabelan Karung
+
+Biji kopi dikemas dalam karung goni atau karung GrainPro sesuai jenis pesanan. Setiap karung diberi label yang memuat kode lot, nama kebun, berat bersih, dan tanggal pengemasan. Label dicetak dengan tinta yang tidak mudah luntur. Pengemas memastikan karung tertutup rapat dan tidak rusak sebelum dipindahkan ke area pengiriman.
+
+Tujuan dan ruang lingkup. SOP ini mengatur pengemasan biji kopi yang sudah kering menjadi karung siap kirim, termasuk pelabelan yang menjadi bagian dari bukti ketertelusuran.
+
+Pemilihan kemasan. Karung goni digunakan untuk pesanan standar dengan berat bersih 60 kilogram. Karung GrainPro digunakan untuk pesanan mutu khusus yang membutuhkan perlindungan kelembapan lebih baik. Setiap karung harus bersih, tidak berlubang, dan belum pernah digunakan untuk komoditas lain.
+
+Proses pengisian. Biji ditimbang dengan timbangan lantai yang dikalibrasi. Berat bersih per karung harus berada dalam toleransi satu kilogram dari target. Karung yang diisi kemudian dijahit atau ditutup rapat dengan segel plastik yang diberi nomor unik.
+
+Pelabelan. Setiap karung diberi label yang memuat kode lot, nama kebun, kabupaten asal, berat bersih, tanggal pengemasan, dan nomor segel. Label dicetak dengan printer label dan dilaminasi agar tidak luntur ketika terkena lembap. Label dipasang di dua sisi karung dan tidak boleh tertutup oleh jahitan.
+
+Verifikasi akhir. Pengemas memeriksa kesesuaian antara label, nomor segel, dan catatan pengemasan sebelum karung dipindahkan ke area pengiriman. Ketidaksesuaian menyebabkan karung ditahan dan dilaporkan kepada koordinator gudang.

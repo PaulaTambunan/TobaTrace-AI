@@ -1,0 +1,13 @@
+SOP-02 Ketertelusuran Lot dan Geolokasi Kebun
+
+Setiap lot kopi ekspor harus dapat ditelusuri kembali ke kebun asal. Setiap kebun dicatat dengan koordinat geolokasi dalam format titik atau poligon. Kode lot dicantumkan pada setiap karung dan pada dokumen penerimaan. Petugas gudang memastikan kode lot pada karung sama dengan kode pada catatan penerimaan. Ketidaksesuaian kode lot wajib dilaporkan kepada koordinator kepatuhan.
+
+Tujuan dan ruang lingkup. SOP ini menjamin bahwa setiap lot kopi ekspor dapat ditelusuri dari karung di gudang kembali ke kebun dan petani asalnya. Ketertelusuran adalah syarat utama pernyataan uji tuntas EUDR dan harus dapat dibuktikan ketika pembeli atau otoritas meminta data.
+
+Pembentukan lot. Lot dibentuk dari kumpulan penerimaan dengan kategori mutu dan periode panen yang sama. Setiap lot diberi kode dengan format tahun, kode pos penerimaan, dan nomor urut, misalnya 2026-BLG-0142. Satu lot tidak boleh berisi biji dari kebun yang belum memiliki data geolokasi lengkap.
+
+Geolokasi kebun. Setiap kebun dicatat koordinat titik tengahnya dalam format derajat desimal dengan minimal lima angka di belakang koma. Untuk kebun yang luasnya lebih dari empat hektar, petugas lapangan merekam poligon batas kebun menggunakan aplikasi pemetaan. Data geolokasi diverifikasi ulang setiap enam bulan atau ketika petani melaporkan perubahan lahan.
+
+Penandaan karung. Kode lot dicetak pada setiap karung dan dicantumkan pada dokumen penerimaan serta surat jalan. Petugas gudang memindai kode lot saat karung masuk dan keluar gudang. Jika kode pada karung tidak sama dengan catatan penerimaan, karung dipisahkan dan tidak boleh dimuat sebelum selisihnya diselesaikan.
+
+Pelaporan ketidaksesuaian. Ketidaksesuaian kode lot, geolokasi yang hilang, atau koordinat yang berada di luar wilayah kebun terdaftar wajib dilaporkan kepada koordinator kepatuhan dalam waktu 24 jam. Laporan memuat kode lot, tanggal kejadian, dan tindakan korektif yang diambil.

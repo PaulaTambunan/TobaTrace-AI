@@ -1,0 +1,15 @@
+SOP-06 Penerbitan Dokumen Ekspor
+
+Dokumen ekspor yang wajib disiapkan terdiri atas packing list, sertifikat asal (certificate of origin), faktur komersial, dan pernyataan uji tuntas. Staf dokumentasi memeriksa kesesuaian berat, kode lot, dan tujuan pengiriman pada seluruh dokumen. Dokumen yang tidak lengkap tidak boleh diserahkan kepada ekspedisi.
+
+Tujuan dan ruang lingkup. SOP ini mengatur penyusunan dan pemeriksaan dokumen ekspor untuk setiap pengiriman lot kopi dari koperasi ke pembeli di luar negeri. Dokumen ekspor harus konsisten satu sama lain dan dengan catatan lapangan.
+
+Packing list. Packing list memuat jumlah karung, berat bersih dan kotor per karung, nomor lot, nomor segel, dan ukuran kemasan. Angka dalam packing list harus sama dengan jumlah pada catatan pengemasan dan surat jalan.
+
+Sertifikat asal. Sertifikat asal menyatakan negara dan wilayah asal kopi, yaitu Kabupaten Toba, Tapanuli Utara, atau Simalungun sesuai lot. Dokumen ini diterbitkan oleh instansi yang berwenang setelah koperasi mengajukan permohonan dengan melampirkan daftar kebun dan lot.
+
+Faktur komersial. Faktur mencantumkan nama pembeli, harga per kilogram, total nilai, syarat pengiriman, dan nomor kontrak penjualan. Harga pada faktur harus sesuai dengan kontrak yang ditandatangani direktur koperasi.
+
+Pemeriksaan silang. Staf dokumentasi memeriksa empat dokumen tersebut secara silang sebelum diserahkan kepada ekspedisi. Pemeriksaan mencakup berat, kode lot, tujuan pengiriman, dan nomor pernyataan uji tuntas dari SOP-03. Dokumen yang tidak lengkap atau tidak konsisten tidak boleh diserahkan kepada ekspedisi dan dikembalikan kepada penyusunnya.
+
+Arsip. Salinan seluruh dokumen ekspor disimpan bersama berkas lot dan dapat diakses kembali apabila pembeli atau otoritas meminta klarifikasi.

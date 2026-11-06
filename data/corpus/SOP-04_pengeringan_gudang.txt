@@ -1,0 +1,13 @@
+SOP-04 Pengeringan dan Penyimpanan di Gudang
+
+Biji kopi dijemur di atas para-para hingga kadar air mencapai batas yang ditetapkan. Pengeringan dilakukan di area bersih dan dibalik secara berkala agar kering merata. Setelah kering, biji disimpan di gudang berventilasi dengan palet yang tidak menyentuh lantai. Suhu dan kelembapan gudang dicatat setiap hari.
+
+Tujuan dan ruang lingkup. SOP ini mengatur pengeringan biji kopi setelah penerimaan dan penyimpanan di gudang sampai biji siap dikemas. Kualitas pengeringan sangat memengaruhi mutu cita rasa dan risiko kontaminasi jamur.
+
+Pengeringan di para-para. Biji dijemur di atas para-para bambu atau lantai beton bersih dengan ketebalan lapisan maksimal dua sentimeter. Penjemuran dilakukan antara pukul 08.00 dan 16.00 ketika intensitas matahari cukup. Biji dibalik setiap dua jam agar kering merata. Biji tidak boleh dijemur langsung di tanah dan tidak boleh dicampur dengan biji dari lot lain.
+
+Pemantauan kadar air. Kadar air diukur setiap hari menggunakan moisture meter. Biji dinyatakan kering ketika kadar air mencapai rentang yang ditetapkan dalam tabel mutu koperasi. Hasil pengukuran dicatat bersama nomor lot, waktu, dan nama petugas.
+
+Penyimpanan di gudang. Biji kering disimpan di gudang berventilasi yang atapnya tidak bocor. Karung diletakkan di atas palet kayu dengan jarak minimal 30 sentimeter dari dinding dan tidak boleh menyentuh lantai. Suhu dan kelembapan gudang dicatat setiap pagi dan sore. Jika kelembapan relatif melebihi 70 persen selama lebih dari dua hari, petugas wajib memindahkan karung ke area yang lebih kering dan melaporkan kejadian tersebut.
+
+Pencegahan hama. Gudang diperiksa setiap minggu untuk tanda-tanda hama seperti kutu beras dan tikus. Penggunaan pestisida di dalam gudang dilarang. Pengendalian dilakukan secara mekanis dan dengan perangkap.

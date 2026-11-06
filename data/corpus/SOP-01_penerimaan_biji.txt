@@ -1,0 +1,13 @@
+SOP-01 Penerimaan Biji Kopi dari Petani
+
+Setiap pengiriman biji kopi dari petani wajib dicatat di buku penerimaan yang memuat nama petani, tanggal, berat kotor, dan berat bersih. Petugas penerimaan memeriksa kadar air dan kondisi fisik biji sebelum menerima. Biji yang berjamur atau tercampur benda asing ditolak dan dicatat alasannya. Setiap penerimaan diberi nomor kode unik yang akan dipakai sebagai acuan pada seluruh tahapan berikutnya.
+
+Tujuan dan ruang lingkup. SOP ini mengatur penerimaan biji kopi arabika basah maupun kering dari anggota koperasi di kawasan Sitorang, Balige, Porsea, dan Siborongborong. Prosedur ini berlaku di setiap pos penerimaan, baik di pengumpul desa maupun di gudang koperasi di Balige.
+
+Langkah penerimaan. Petani datang dengan membawa hasil panen dan kartu anggota. Petugas penerimaan memeriksa kartu anggota dan mencocokkannya dengan daftar kebun yang terdaftar. Biji ditimbang menggunakan timbangan yang sudah dikalibrasi dalam periode enam bulan terakhir, lalu berat kotor dan berat bersih dicatat. Petugas mengambil sampel sekitar 200 gram dan mengukur kadar air menggunakan alat moisture meter. Kadar air di atas batas toleransi membuat penerimaan ditunda hingga petani menjemur ulang hasil panennya.
+
+Pemeriksaan kualitas. Petugas memeriksa biji dari segi warna, ukuran, adanya biji hitam atau biji pecah, serta bau. Hasil pemeriksaan diberi kategori A, B, atau C sesuai tabel mutu koperasi. Kategori C dikembalikan kepada petani dengan catatan tertulis.
+
+Pencatatan dan bukti. Setiap penerimaan dicatat dalam buku penerimaan dan dalam sistem informasi. Petani menerima tanda terima bernomor unik yang juga ditandatangani petugas. Nomor kode penerimaan inilah yang nantinya dibawa ke proses pengeringan, pengemasan, dan pengiriman agar setiap lot dapat ditelusuri.
+
+Tanggung jawab. Kepala pos penerimaan bertanggung jawab atas kelengkapan buku penerimaan dan keakuratan timbangan. Petugas yang menemukan selisih berat lebih dari dua persen wajib melaporkannya kepada koordinator operasional pada hari yang sama.
