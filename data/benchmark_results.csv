@@ -1,0 +1,12 @@
+type,query,expected_source,top1_source,top1_score,top3_scores,top3_sources
+sinonim,bagaimana membuktikan kopi tidak berasal dari lahan hutan baru,SOP-07_kebun_deforestasi.txt,SOP-01_penerimaan_biji.txt,0.6291,0.6291;0.6156;0.5462,SOP-01_penerimaan_biji.txt;SOP-05_pengemasan_label.txt;SOP-04_pengeringan_gudang.txt
+sinonim,cara melacak asal kebun dari karung kopi,SOP-02_ketertelusuran_lot.txt,SOP-02_ketertelusuran_lot.txt,0.6308,0.6308;0.4982;0.4966,SOP-02_ketertelusuran_lot.txt;SOP-01_penerimaan_biji.txt;SOP-05_pengemasan_label.txt
+sinonim,prosedur menjemur biji kopi sebelum disimpan di gudang,SOP-04_pengeringan_gudang.txt,SOP-04_pengeringan_gudang.txt,0.736,0.7360;0.6006;0.5638,SOP-04_pengeringan_gudang.txt;SOP-05_pengemasan_label.txt;SOP-01_penerimaan_biji.txt
+sinonim,data apa saja yang dikumpulkan untuk pernyataan bebas deforestasi,SOP-03_uji_tuntas.txt,SOP-07_kebun_deforestasi.txt,0.709,0.7090;0.6547;0.4947,SOP-07_kebun_deforestasi.txt;SOP-03_uji_tuntas.txt;SOP-07_kebun_deforestasi.txt
+sinonim,pencatatan berat biji saat petani menyerahkan hasil panen,SOP-01_penerimaan_biji.txt,SOP-01_penerimaan_biji.txt,0.5722,0.5722;0.4891;0.4595,SOP-01_penerimaan_biji.txt;SOP-01_penerimaan_biji.txt;SOP-01_penerimaan_biji.txt
+ambigu,dokumen ekspor,SOP-06_dokumen_ekspor.txt,SOP-06_dokumen_ekspor.txt,0.573,0.5730;0.5339;0.4923,SOP-06_dokumen_ekspor.txt;SOP-06_dokumen_ekspor.txt;KEBIJAKAN_retensi_dokumen.txt
+ambigu,aturan penyimpanan,SOP-04_pengeringan_gudang.txt,KEBIJAKAN_retensi_dokumen.txt,0.5183,0.5183;0.4988;0.4832,KEBIJAKAN_retensi_dokumen.txt;SOP-05_pengemasan_label.txt;KEBIJAKAN_retensi_dokumen.txt
+out_of_domain,resep rendang padang yang autentik,,SOP-05_pengemasan_label.txt,0.3332,0.3332;0.2650;0.2570,SOP-05_pengemasan_label.txt;SOP-07_kebun_deforestasi.txt;SOP-02_ketertelusuran_lot.txt
+out_of_domain,cara memperbaiki jaringan wifi di rumah,,SOP-02_ketertelusuran_lot.txt,0.2697,0.2697;0.1929;0.1814,SOP-02_ketertelusuran_lot.txt;SOP-07_kebun_deforestasi.txt;SOP-09_pengiriman_belawan.txt
+out_of_domain,harga saham bank BCA hari ini,,SOP-02_ketertelusuran_lot.txt,0.1751,0.1751;0.1372;0.1199,SOP-02_ketertelusuran_lot.txt;SOP-06_dokumen_ekspor.txt;SOP-01_penerimaan_biji.txt
+out_of_domain,kunci gitar untuk lagu pop dasar,,SOP-05_pengemasan_label.txt,0.1907,0.1907;0.1165;0.1014,SOP-05_pengemasan_label.txt;SOP-05_pengemasan_label.txt;SOP-06_dokumen_ekspor.txt
